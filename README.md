@@ -71,8 +71,7 @@ ArrayList API:
 >遍历集合
 ```javascript
 	list.forEach(e => {
-		let key = e.key;
-		let value = e.value;
+		console.log(e);
 	});
 ```
 
@@ -86,9 +85,9 @@ ArrayList API:
 	list.last();
 ```
 
->返回元素字符串表现形式
+>返回元素个数
 ```javascript
-	list.toString();
+	list.size();
 ```
 
 关于作者:<br>

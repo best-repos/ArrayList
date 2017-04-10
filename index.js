@@ -104,17 +104,11 @@ class ArrayList{
 		});
 	}
 	/**
-	 * 字符串表现形式
+	 * 获取元素个数
 	 */
-	toString(){
-		let __str = "[";
-		let __this = this;
-		this.arr.forEach(e => {
-			__str += `${e.key}:${e.value},`;
-		});
-		__str = __str.substring(0,__this.arr.length - 2);
-		__str += "]";
-		return __str;
-	}
+	 size(){
+		return this.arr.length;
+	 }
+	
 }
 module.exports = ArrayList;
