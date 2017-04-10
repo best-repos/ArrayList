@@ -8,16 +8,9 @@ class ArrayList{
 		this.arr = array;
 	}
 	/**
-	 * 添加单个元素
-	 * @param {[type]} item [description]
-	 */
-	add(item){
-		this.arr.push(item);
-	}
-	/**
 	 * 添加多个元素
 	 */
-	addAll(...items){
+	add(...items){
 		items.forEach(e => this.arr.push(e));
 	}
 	/**
@@ -100,6 +93,28 @@ class ArrayList{
 	 */
 	last(){
 		return this.arr[this.arr.length - 1];
+	}
+	/**
+	 * 删除多个元素
+	 */
+	removeAll(...items){
+		let __this = this;
+		items.forEach(e => {
+			__this.remove(e);
+		});
+	}
+	/**
+	 * 字符串表现形式
+	 */
+	toString(){
+		let __str = "[";
+		let __this = this;
+		this.arr.forEach(e => {
+			__str += `${e.key}:${e.value},`;
+		});
+		__str = __str.substring(0,__this.arr.length - 2);
+		__str += "]";
+		return __str;
 	}
 }
 module.exports = ArrayList;

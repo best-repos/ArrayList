@@ -28,6 +28,11 @@ ArrayList API:
 	list.remove(item);
 ```
 
+>删除多个元素
+```javascript
+	list.removeAll(item1,item2,item3...);
+```
+
 >清空集合元素
 ```javascript
 	list.clear();
@@ -79,6 +84,11 @@ ArrayList API:
 >获取元素中最后一个元素
 ```javascript
 	list.last();
+```
+
+>返回元素字符串表现形式
+```javascript
+	list.toString();
 ```
 
 关于作者:<br>
