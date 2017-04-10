@@ -1,11 +1,11 @@
 ArrayList API:
 
 下载<br>
-	npm install arraylist
+	npm install arraylists
 
 >引用包
 ```javascript
-	let ArrayList = require("arraylist");
+	let ArrayList = require("arraylists");
 ```
 
 >创建一个ArrayList对象
