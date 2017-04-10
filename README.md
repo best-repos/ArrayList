@@ -90,5 +90,14 @@ ArrayList API:
 	list.size();
 ```
 
+>返回在此 ArrayList 的元素上进行迭代的迭代器。
+```javascript
+	list.iterator();
+```
+
+[点此查看iterator迭代器使用文档](https://www.npmjs.com/package/listiterator)
+
+https://www.npmjs.com/package/listiterator
+
 关于作者:<br>
 	email:admin@w3c.top

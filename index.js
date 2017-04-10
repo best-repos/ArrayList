@@ -1,3 +1,5 @@
+let Iterator = require("listiterator");
+
 class ArrayList{
 	/**
 	 * 构造函数,允许传入一个数组
@@ -108,6 +110,12 @@ class ArrayList{
 	 */
 	 size(){
 		return this.arr.length;
+	 }
+	 /**
+	  * 获取迭代器
+	  */
+	 iterator(){
+	 	return new Iterator(this.arr);
 	 }
 	
 }

@@ -1,6 +1,6 @@
 {
   "name": "arraylists",
-  "version": "1.6.0",
+  "version": "1.9.1",
   "description": "arraylist collection",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/w3c-king/ArrayList#readme",
   "keywords": [
     "arraylist"
-  ]
+  ],
+  "devDependencies": {
+    "listiterator": "^1.1.0"
+  }
 }
