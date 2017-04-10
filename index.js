@@ -89,5 +89,17 @@ class ArrayList{
 		if(index > this.arr.length) return;
 		this.arr[index] = item;
 	}
+	/**
+	 * 获取元素中第一个元素
+	 */
+	first(){
+		return this.arr[0];
+	}
+	/**
+	 * 获取元素中最后一个元素
+	 */
+	last(){
+		return this.arr[this.arr.length - 1];
+	}
 }
 module.exports = ArrayList;

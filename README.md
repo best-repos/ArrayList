@@ -63,5 +63,23 @@ ArrayList API:
 	list.set(index,item);
 ```
 
+>遍历集合
+```javascript
+	list.forEach(e => {
+		let key = e.key;
+		let value = e.value;
+	});
+```
+
+>获取元素中第一个元素
+```javascript
+	list.first();
+```
+
+>获取元素中最后一个元素
+```javascript
+	list.last();
+```
+
 关于作者:<br>
 	email:admin@w3c.top

@@ -1,6 +1,6 @@
 {
-  "name": "arraylist",
-  "version": "1.0.0",
+  "name": "arraylists",
+  "version": "1.2.0",
   "description": "arraylist collection",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/w3c-king/ArrayList/issues"
   },
-  "homepage": "https://github.com/w3c-king/ArrayList#readme"
+  "homepage": "https://github.com/w3c-king/ArrayList#readme",
+  "keywords": [
+    "arraylist"
+  ]
 }
