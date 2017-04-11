@@ -117,6 +117,21 @@ class ArrayList{
 	 iterator(){
 	 	return new Iterator(this.arr);
 	 }
+	 /**
+	  * 判断两个集合中元素否相等
+	  */
+	 equals(list){
+	 	
+	 	if(list.size() != this.size()) return false;
+
+	 	if(list == this) return true;
+
+	 	for(let i=0,len=this.length;i<len;i++){
+	 		if(this.arr[i] != list.arr[i]) return false;
+	 	}
+	 	
+	 	return true;
+	 }
 	
 }
 module.exports = ArrayList;
