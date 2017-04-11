@@ -1,6 +1,6 @@
 {
   "name": "arraylists",
-  "version": "1.9.3",
+  "version": "2.0.3",
   "description": "强大的ArrayList集合工具类",
   "main": "index.js",
   "scripts": {

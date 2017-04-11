@@ -132,6 +132,26 @@ class ArrayList{
 	 	
 	 	return true;
 	 }
-	
+	 /**
+	  * 转换为数组
+	  */
+	 toArray(){
+	 	return this.arr;
+	 }
+	 /**
+	  * 去除重复元素
+	  */
+	 unique(){
+	 	let arr = this.arr;
+	 	arr.sort();
+		var re = [arr[0]];
+		for (var i = 1; i < arr.length; i++) {
+			if (arr[i] !== re[re.length - 1]) {
+				re.push(arr[i]);
+			}
+		}
+		this.arr = re;
+	 }
+
 }
 module.exports = ArrayList;

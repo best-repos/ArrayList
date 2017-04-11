@@ -90,6 +90,16 @@ ArrayList API:
 	list.size();
 ```
 
+>去除重复元素
+```javascript
+	list.unique();
+```
+
+>将集合转换为数组,返回一个数组,但不改变原集合
+```javascript
+	list.toArray();
+```
+
 >判断两个集合中元素否相等
 ```javascript
 	list.equals(list2);
@@ -109,5 +119,9 @@ https://www.npmjs.com/package/listiterator
 
 >更新日志:<br>
 
->2017-4-11 17:43:28更新:<br>
+>2017-4-11更新:<br>
 >>新增equals比较函数
+>
+>>新增unique函数去除集合中重复元素
+>
+>>新增toArray函数将集合转换为数组
