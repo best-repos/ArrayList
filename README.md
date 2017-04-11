@@ -23,6 +23,11 @@ ArrayList API:
 	list.add(item1,item2,item3...);
 ```
 
+>添加一个数组进集合
+```javascript
+	list.addAll(array);
+```
+
 >删除指定元素
 ```javascript
 	list.remove(item);
@@ -125,3 +130,5 @@ https://www.npmjs.com/package/listiterator
 >>新增unique函数去除集合中重复元素
 >
 >>新增toArray函数将集合转换为数组
+>
+>>新增addAll函数可直接添加一个数组进集合

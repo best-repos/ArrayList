@@ -1,6 +1,6 @@
 {
   "name": "arraylists",
-  "version": "2.0.3",
+  "version": "2.0.5",
   "description": "强大的ArrayList集合工具类",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/w3c-king/ArrayList#readme",
   "keywords": [
-    "arraylist"
+    "arraylist",
+    "list",
+    "array",
+    "iterator"
   ],
   "devDependencies": {
     "listiterator": "^1.1.0"

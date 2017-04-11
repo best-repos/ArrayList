@@ -16,6 +16,12 @@ class ArrayList{
 		items.forEach(e => this.arr.push(e));
 	}
 	/**
+	 * 添加一个数组
+	 */
+	addAll(items){
+		items.forEach(e => this.arr.push(e));	
+	}
+	/**
 	 * 遍历集合
 	 */
 	forEach(callback){
