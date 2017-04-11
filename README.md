@@ -90,6 +90,11 @@ ArrayList API:
 	list.size();
 ```
 
+>判断两个集合中元素否相等
+```javascript
+	list.equals(list2);
+```
+
 >返回在此 ArrayList 的元素上进行迭代的迭代器。
 ```javascript
 	list.iterator();
