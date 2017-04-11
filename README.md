@@ -99,5 +99,10 @@ ArrayList API:
 
 https://www.npmjs.com/package/listiterator
 
-关于作者:<br>
+>关于作者:<br>
 	email:admin@w3c.top
+
+>更新日志:<br>
+
+>2017-4-11 17:43:28更新:<br>
+>>新增equals比较函数
