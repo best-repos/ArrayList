@@ -1,6 +1,6 @@
 {
   "name": "arraylists",
-  "version": "2.0.5",
+  "version": "2.0.8",
   "description": "强大的ArrayList集合工具类",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,9 @@
     "iterator"
   ],
   "devDependencies": {
-    "listiterator": "^1.1.0"
+    "listiterator": "^1.2.0"
+  },
+  "dependencies": {
+    "listiterator": "*"
   }
 }
