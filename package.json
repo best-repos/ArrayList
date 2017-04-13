@@ -1,6 +1,6 @@
 {
   "name": "arraylists",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "强大的ArrayList集合工具类",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/w3c-king/ArrayList.git"
   },
-  "author": "admin@w3c.top",
+  "author": "jiabing",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/w3c-king/ArrayList/issues"

@@ -8,12 +8,36 @@ class ArrayList{
 	 */
 	constructor(array = []){
 		this.arr = array;
+		this.type = "true";
 	}
+
+	/**
+	 * 设置元素类型
+	 * @param {[type]} type [description]
+	 */
+	setType(type){
+		this.type = type;
+	}
+	/**
+	 * 判断添加元素是否合法
+	 * @param  {[type]} item [description]
+	 * @return {[type]}      [description]
+	 */
+	__isAdd(item){
+		return typeof item === this.type.toLowerCase() || this.type === "true";
+	}
+
 	/**
 	 * 添加多个元素
 	 */
 	add(...items){
-		items.forEach(e => this.arr.push(e));
+		items.forEach(e => {
+			if(this.__isAdd(e)){
+				this.arr.push(e)
+			}else{
+				throw new Error(`您添加的不是一个${this.type}类型元素`);
+			}
+		});
 	}
 	/**
 	 * 添加一个数组
