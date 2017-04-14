@@ -11,6 +11,8 @@ ArrayList API:
 >创建一个ArrayList对象
 ```javascript
 	let list = new ArrayList();
+	// 允许在创建对象时传入数组进构造函数，此操作会将数组中的所有元素直接在ArrayList对象初始化时添加进集合
+	let list = new ArrayList([1,2,3]); // 栗子
 ```
 
 >设置泛型,可设置类型为string,number,boolean和function数据类型。设置泛型后如添加非泛型定义的类型进集合则抛出异常.如不设置泛型,则集合中元素可添加任意类型.
