@@ -13,6 +13,21 @@ ArrayList API:
 	let list = new ArrayList();
 ```
 
+>设置泛型,可设置类型为string,number,boolean和function数据类型。设置泛型后如添加非泛型定义的类型进集合则抛出异常.如不设置泛型,则集合中元素可添加任意类型.
+```javascript
+	list.setType(type);
+	// 举个栗子
+	// 设置集合中元素只允许添加数字
+	list.setType("number");
+	// 设置集合中元素只允许添加字符串
+	list.setType("string");
+	// 设置集合中元素只允许添加布尔值
+	list.setType("boolean");
+	// 设置集合中元素只允许添加函数类型
+	list.setType("function");
+	...
+```
+
 >添加一个元素
 ```javascript
 	list.add(item);
@@ -124,7 +139,7 @@ https://www.npmjs.com/package/listiterator
 
 >更新日志:<br>
 
->2017-4-11更新:<br>
+>V2.0.9更新:<br>
 >>新增equals比较函数
 >
 >>新增unique函数去除集合中重复元素
@@ -132,3 +147,6 @@ https://www.npmjs.com/package/listiterator
 >>新增toArray函数将集合转换为数组
 >
 >>新增addAll函数可直接添加一个数组进集合
+
+>V2.1.0更新:<br>
+>>新增泛型定义
